@@ -1,0 +1,794 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: wrap;
+}
+
+header nav {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 80px;
+}
+
+header .whatsappLink {
+  color: rgba(58, 219, 82, 0.873);
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1rem 0 0 0.2rem;
+  cursor: pointer;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  padding-top: 1.6rem;
+}
+
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 0 2rem 0 0;
+}
+
+#webLink {
+  position: absolute;
+  right: 12rem;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline #25d366;
+}
+
+header .downloadBttn {
+  cursor: pointer;
+  position: absolute;
+  background: -webkit-linear-gradient(#25d366 50%, black 50%);
+  background-size: 200px 160px;
+  right: 3rem;
+  color: black;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 10px 40px 10px 10px;
+  top: 0.4rem;
+  border: 1.5px solid black;
+  border-radius: 5rem;
+}
+
+header button a {
+  text-decoration: none;
+}
+
+header .downloadBttn:hover {
+  background-position: 0 -80px;
+  color: white;
+  transition: 0.8s;
+}
+
+.section1 {
+  background-color: #dcf8c6;
+}
+
+.subSection1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 3rem 0 3rem 0;
+}
+
+.subSection1 p:nth-child(1) {
+  font-size: 3rem;
+  position: relative;
+  top: 3rem;
+}
+
+.subSection1 p:nth-child(2) {
+  position: relative;
+  top: 3rem;
+  left: 21.5rem;
+}
+
+.subSection1 p:nth-child(3) {
+  position: relative;
+  top: 8rem;
+  left: 0.1rem;
+  font-size: small;
+}
+
+.termsLink {
+  color: black;
+}
+
+#mobile1 {
+  font-size: small;
+  color: white;
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  margin: 40px 115px;
+}
+
+#android {
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  margin: 60px 77px;
+}
+
+#version1 {
+  font-size: small;
+  color: white;
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  margin: 125px 0 0 27px;
+}
+
+.googlePlayBttn {
+  position: absolute;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 13px 18px 10px 38px;
+  margin: 215px 0 0 47px;
+  line-height: 1.3333333;
+  border-radius: 8px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 0.5px solid white;
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.googlePlayBttn:before {
+  content: "";
+  background-image: url(https://4.bp.blogspot.com/-52U3eP2JDM4/WSkIT1vbUxI/AAAAAAAArQA/iF1BeARv2To-2FGQU7V6UbNPivuv_lccACLcB/s30/nexus2cee_ic_launcher_play_store_new-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  left: 1px;
+  top: 50%;
+  margin-top: -15px;
+}
+
+.googlePlayBttn:after {
+  content: "GET IT ON";
+  position: absolute;
+  top: 5px;
+  left: 40px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+#mobile2 {
+  font-size: small;
+  color: white;
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  margin: 40px 115px;
+}
+
+#ios {
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  margin: 60px 109px;
+}
+
+#version2 {
+  font-size: small;
+  color: white;
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  margin: 125px 0 0 32px;
+}
+
+.appleBttn {
+  position: absolute;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 13px 18px 10px 38px;
+  margin: 215px 0 0 55px;
+  line-height: 1.3333333;
+  border-radius: 8px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 0.5px solid white;
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.appleBttn:before {
+  content: "";
+  background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzMDUgMzA1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMDUgMzA1OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CjxnIGlkPSJYTUxJRF8yMjhfIj4KCTxwYXRoIGlkPSJYTUxJRF8yMjlfIiBkPSJNNDAuNzM4LDExMi4xMTljLTI1Ljc4NSw0NC43NDUtOS4zOTMsMTEyLjY0OCwxOS4xMjEsMTUzLjgyQzc0LjA5MiwyODYuNTIzLDg4LjUwMiwzMDUsMTA4LjIzOSwzMDUgICBjMC4zNzIsMCwwLjc0NS0wLjAwNywxLjEyNy0wLjAyMmM5LjI3My0wLjM3LDE1Ljk3NC0zLjIyNSwyMi40NTMtNS45ODRjNy4yNzQtMy4xLDE0Ljc5Ny02LjMwNSwyNi41OTctNi4zMDUgICBjMTEuMjI2LDAsMTguMzksMy4xMDEsMjUuMzE4LDYuMDk5YzYuODI4LDIuOTU0LDEzLjg2MSw2LjAxLDI0LjI1Myw1LjgxNWMyMi4yMzItMC40MTQsMzUuODgyLTIwLjM1Miw0Ny45MjUtMzcuOTQxICAgYzEyLjU2Ny0xOC4zNjUsMTguODcxLTM2LjE5NiwyMC45OTgtNDMuMDFsMC4wODYtMC4yNzFjMC40MDUtMS4yMTEtMC4xNjctMi41MzMtMS4zMjgtMy4wNjZjLTAuMDMyLTAuMDE1LTAuMTUtMC4wNjQtMC4xODMtMC4wNzggICBjLTMuOTE1LTEuNjAxLTM4LjI1Ny0xNi44MzYtMzguNjE4LTU4LjM2Yy0wLjMzNS0zMy43MzYsMjUuNzYzLTUxLjYwMSwzMC45OTctNTQuODM5bDAuMjQ0LTAuMTUyICAgYzAuNTY3LTAuMzY1LDAuOTYyLTAuOTQ0LDEuMDk2LTEuNjA2YzAuMTM0LTAuNjYxLTAuMDA2LTEuMzQ5LTAuMzg2LTEuOTA1Yy0xOC4wMTQtMjYuMzYyLTQ1LjYyNC0zMC4zMzUtNTYuNzQtMzAuODEzICAgYy0xLjYxMy0wLjE2MS0zLjI3OC0wLjI0Mi00Ljk1LTAuMjQyYy0xMy4wNTYsMC0yNS41NjMsNC45MzEtMzUuNjExLDguODkzYy02LjkzNiwyLjczNS0xMi45MjcsNS4wOTctMTcuMDU5LDUuMDk3ICAgYy00LjY0MywwLTEwLjY2OC0yLjM5MS0xNy42NDUtNS4xNTljLTkuMzMtMy43MDMtMTkuOTA1LTcuODk5LTMxLjEtNy44OTljLTAuMjY3LDAtMC41MywwLjAwMy0wLjc4OSwwLjAwOCAgIEM3OC44OTQsNzMuNjQzLDU0LjI5OCw4OC41MzUsNDAuNzM4LDExMi4xMTl6IiBmaWxsPSIjMmUyZTJlIi8+Cgk8cGF0aCBpZD0iWE1MSURfMjMwXyIgZD0iTTIxMi4xMDEsMC4wMDJjLTE1Ljc2MywwLjY0Mi0zNC42NzIsMTAuMzQ1LTQ1Ljk3NCwyMy41ODNjLTkuNjA1LDExLjEyNy0xOC45ODgsMjkuNjc5LTE2LjUxNiw0OC4zNzkgICBjMC4xNTUsMS4xNywxLjEwNywyLjA3MywyLjI4NCwyLjE2NGMxLjA2NCwwLjA4MywyLjE1LDAuMTI1LDMuMjMyLDAuMTI2YzE1LjQxMywwLDMyLjA0LTguNTI3LDQzLjM5NS0yMi4yNTcgICBjMTEuOTUxLTE0LjQ5OCwxNy45OTQtMzMuMTA0LDE2LjE2Ni00OS43N0MyMTQuNTQ0LDAuOTIxLDIxMy4zOTUtMC4wNDksMjEyLjEwMSwwLjAwMnoiIGZpbGw9IiMyZTJlMmUiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  left: 1px;
+  top: 50%;
+  margin-top: -15px;
+}
+
+.appleBttn:after {
+  content: "Download on the";
+  position: absolute;
+  top: 5px;
+  left: 40px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+#desktop {
+  font-size: small;
+  color: white;
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  margin: 40px 115px;
+}
+
+#mac {
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  margin: 60px 109px;
+}
+
+#version3 {
+  font-size: small;
+  color: white;
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  margin: 125px 0 0 39px;
+}
+
+.downloadBttn2 {
+  position: absolute;
+  cursor: pointer;
+  background: -webkit-linear-gradient(white 50%, black 50%);
+  background-size: 200px 160px;
+  color: white;
+  padding: 8px 35px 8px 38px;
+  margin: 215px 0 0 39px;
+  line-height: 1.3333333;
+  border-radius: 20px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 0.5px solid black;
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.downloadBttn2:hover {
+  background-position: 0 -80px;
+  color: white;
+  transition: 0.8s;
+}
+
+.container {
+  position: relative;
+  width: 1190px;
+  height: 300px;
+  margin: 100px auto;
+}
+
+.container .downloadBox {
+  position: relative;
+  width: 255px;
+  height: 315px;
+  background: #18181c;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 35px;
+  left: 190px;
+}
+
+.container .downloadBox:hover {
+  background: #25d366;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.subSection3 p {
+  position: relative;
+  bottom: 3rem;
+  left: 33rem;
+  font-size: larger;
+}
+
+.subSection3 p a {
+  color: black;
+}
+
+.section2 {
+  background-color: white;
+  border-left: 5pxsolid #18181c;
+  border-right: 5pxsolid #18181c;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.subSection2_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 3rem 0 3rem 0;
+}
+
+.subSection2_1 h1 {
+  font-size: 3rem;
+  position: relative;
+  top: 2rem;
+  left: -9rem;
+}
+
+.subSection2_1 p {
+  position: relative;
+  top: 9rem;
+  left: -26.5rem;
+}
+
+.imgContent {
+  height: 400px;
+  width: 750px;
+  overflow: hidden;
+}
+
+.imgContent .images {
+  position: absolute;
+  bottom: -300px;
+  right: 0;
+  margin: 0;
+  display: inline-flex;
+}
+
+.images img {
+  border: 1px transparent;
+  border-radius: 25px;
+  width: 100%;
+  width: 300px;
+  position: relative;
+  right: 0;
+  margin: 10px;
+}
+
+.images #img3 {
+  margin-right: -170px;
+}
+
+.imgContent .slide {
+  position: absolute;
+  top: 1099px;
+  transform: translateY(-50%);
+  width: 45px;
+  padding: 0 0 0 8px;
+  height: 45px;
+  background: -webkit-linear-gradient(white 50%, black 50%);
+  background-size: 200px 160px;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.imgContent .slide:hover,
+.slide span:hover {
+  background-position: 0 -80px;
+  color: white;
+  transition: 0.8s;
+}
+
+.left {
+  left: 270px;
+}
+.slide span {
+  font-size: 35px;
+  color: black;
+  line-height: 41px;
+}
+
+.imgContent .right {
+  right: 1030px;
+}
+
+.caption {
+  font-size: 1.8rem;
+}
+
+.captionLink {
+  position: relative;
+  top: 10px;
+  color: black;
+  text-decoration: underline #25d366;
+}
+
+.captionLink:hover {
+  color: #25d366;
+}
+
+.footer1 {
+  background-color: #18181c;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  position: relative;
+  top: -10rem;
+  padding: 21rem 0 0 10rem;
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #18181c;
+  height: fit-content;
+  height: 50%;
+}
+
+.footer1 .whatsappLink {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  top: -15rem;
+  left: 7rem;
+  cursor: pointer;
+}
+
+.footerHeading {
+  color: white;
+  font-size: small;
+}
+
+.info {
+  position: relative;
+  top: -15rem;
+  left: 14rem;
+}
+
+.info ul li {
+  position: relative;
+  top: 1rem;
+  padding: 1rem 5rem 0 0;
+  list-style: none;
+}
+
+.info ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.info ul li a:hover {
+  text-decoration: underline white;
+}
+
+.footer1 div .downloadBttn {
+  cursor: pointer;
+  position: relative;
+  background: -webkit-linear-gradient(#25d366 50%, white 50%);
+  background-size: 200px 160px;
+  right: 48rem;
+  bottom: 6rem;
+  color: black;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 10px 40px 10px 10px;
+  border: 1.5px solid black;
+  border-radius: 5rem;
+}
+
+.footer1 div .downloadBttn:hover {
+  background-position: 0 -80px;
+  color: black;
+  transition: 0.8s;
+}
+
+hr {
+  border: none;
+  border-top: 0.5px double #075e54;
+  color: #075e54;
+  overflow: visible;
+  position: absolute;
+  bottom: 9rem;
+  left: 16rem;
+  width: 70%;
+  margin-right: 0rem;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  position: absolute;
+  bottom: 3rem;
+  left: 16rem;
+}
+
+#sect1 {
+  font-size: small;
+  color: white;
+}
+
+#sect2 {
+  position: relative;
+  left: 4rem;
+}
+
+#sect2 a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+
+.social {
+  position: relative;
+  left: 10rem;
+  transform: translateY(-50%);
+  width: 45px;
+  margin: 10px;
+  height: 45px;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  background: -webkit-linear-gradient(#2d2d34 50%, #25d366 50%);
+  background-size: 200px 160px;
+}
+.social:hover {
+  background-position: 0 -80px;
+  transition: 0.8s;
+}
+
+.langBox {
+  position: relative;
+  left: 20rem;
+  bottom: 1rem;
+}
+
+#language {
+  width: 12rem;
+  height: 3rem;
+  border: 1.5px solid white;
+  border-radius: 5rem;
+  background-color: #18181c;
+  color: white;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 414px) {
+  * {
+    width: fit-content;
+    height: fit-content;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    padding: 0;
+  }
+
+  header nav {
+    background-color: #dcf8c6;
+  }
+
+  header .whatsappLink {
+    position: relative;
+    left: 10rem;
+  }
+
+  header .downloadBttn {
+    width: 15px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 1px;
+    align-content: center;
+    height: fit-content;
+    position: relative;
+    top: 0rem;
+    left: 20rem;
+  }
+
+  header nav ul li {
+    content-visibility: hidden;
+  }
+  .section1 {
+    margin-top: -10rem;
+    padding-bottom: 55rem;
+  }
+  .subSection1 p:nth-child(1) {
+    position: relative;
+    top: 10rem;
+    left: 5rem;
+  }
+
+  .subSection1 p:nth-child(2) {
+    position: relative;
+    top: 18rem;
+    left: -7rem;
+  }
+
+  .subSection1 p:nth-child(3) {
+    position: relative;
+    top: 22rem;
+    left: -28rem;
+  }
+
+  .downloadBox {
+    position: relative;
+    top: 14rem;
+  }
+  .section2 {
+    padding-bottom: 20rem;
+  }
+
+  .container {
+    width: 200px;
+    position: relative;
+    left: -5rem;
+  }
+
+  .subSection2_1 {
+    position: relative;
+    left: 12rem;
+  }
+
+  .subSection2_1 p {
+    position: relative;
+    top: 10rem;
+  }
+
+  .imgContent .images {
+    position: absolute;
+    bottom: -1250px;
+    margin-right: -250px;
+  }
+
+  .images img {
+    width: 250px;
+
+    margin: 5px;
+  }
+
+  .subSection3 {
+    position: relative;
+    top: 57rem;
+    left: -47rem;
+    white-space: nowrap;
+  }
+
+  .imgContent .slide {
+    top: 137rem;
+
+    right: 10rem;
+  }
+
+  .imgContent .left {
+    position: absolute;
+    left: 5rem;
+  }
+
+  .imgContent .right {
+    position: absolute;
+    left: 10rem;
+  }
+
+  .footer1 {
+    padding-bottom: 20rem;
+  }
+
+  .footer1 div .downloadBttn {
+    position: relative;
+    bottom: 20rem;
+    margin-right: 7rem;
+    margin-left: -14rem;
+    width: 19rem;
+    height: 4.3rem;
+  }
+
+  hr {
+    bottom: 45em;
+    position: absolute;
+    left: 0;
+  }
+
+  .social {
+    position: relative;
+    left: -23rem;
+    bottom: 35rem;
+    width: 55px;
+    height: 55px;
+    margin: 15px;
+  }
+
+  .footer1 .whatsappLink {
+    position: relative;
+    top: -4rem;
+    left: -9rem;
+    font-size: larger;
+  }
+
+  .info {
+    position: relative;
+    top: 1rem;
+    left: -18rem;
+  }
+
+  .info ul li {
+    position: relative;
+  }
+
+  .info ul li {
+    position: relative;
+    top: 1rem;
+
+    white-space: nowrap;
+  }
+
+  #info3,
+  #info4 {
+    position: relative;
+    top: 15rem;
+    left: -41rem;
+  }
+
+  #sect1 {
+    position: relative;
+    top: 12rem;
+    left: -12rem;
+  }
+
+  #sect2 {
+    position: relative;
+    top: 13rem;
+    left: -20rem;
+  }
+
+  .langBox {
+    position: relative;
+    top: 11.5rem;
+    left: -33rem;
+  }
+
+  #language {
+    width: 8rem;
+    height: 3rem;
+  }
+}
