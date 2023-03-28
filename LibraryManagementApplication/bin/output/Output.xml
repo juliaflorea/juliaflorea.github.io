@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<library>
+    <shelf1>
+        <category>
+            fantasy
+            <book id="bk101">
+                <title>The color of magic</title>
+                <author>Terry Pratchett</author>
+                <price>44.95</price>
+                <publish_date>2000-10-01</publish_date>
+            </book>
+            <book id="bk102">
+                <title>The fifth season</title>
+                <author>NK Jemisin</author>
+                <price>5.95</price>
+                <publish_date>2000-12-16</publish_date>
+            </book>
+            <book id="bk103">
+                <title>The lord of the rings </title>
+                <author>JRR Tolkien </author>
+                <price>5.95 </price>
+                <publish_date> 2000-11-17</publish_date>
+            </book>
+            <book id="bk104">
+                <title> The name of the wind</title>
+                <author>Patrick Rothfuss </author>
+                <price>5.95  </price>
+                <publish_date> 2001-03-10</publish_date>
+            </book>
+            <book id="bk105">
+                <title>American gods </title>
+                <author>Neil Gaiman </author>
+                <price>5.95 </price>
+                <publish_date>2001-09-10 </publish_date>
+            </book>
+        </category>
+    </shelf1>
+    <shelf2>
+        <category>
+            programming
+            <book id="bk106">
+                <title>Types and Programming Languages </title>
+                <author>C. Pierce </author>
+                <price>4.95  </price>
+                <publish_date>2000-09-02 </publish_date>
+            </book>
+            <book id="bk107">
+                <title>Algorithms </title>
+                <author>Robert Sedgewick and Kevin Wayne </author>
+                <price>4.95 </price>
+                <publish_date>2000-11-02 </publish_date>
+            </book>
+            <book id="bk108">
+                <title>Introduction to Computer Science Using Python </title>
+                <author>Charles Dierbach </author>
+                <price>4.95 </price>
+                <publish_date>2000-12-06  </publish_date>
+            </book>
+            <book id="bk109">
+                <title>JavaScript: The Good Parts </title>
+                <author>Douglas Crockford </author>
+                <price>6.95 </price>
+                <publish_date>2000-11-02 </publish_date>
+            </book>
+            <book id="bk110">
+                <title>The Pragmatic Programmer </title>
+                <author>Andrew Hunt and David Thomas </author>
+                <price>36.95 </price>
+                <publish_date>2000-12-09 </publish_date>
+            </book>
+            <book id="bk111">
+                <title>Modern Operating Systems </title>
+                <author>Andrew S. Tanenbaum </author>
+                <price>36.95 </price>
+                <publish_date>2000-12-01 </publish_date>
+            </book>
+        </category>
+    </shelf2>
+    <shelf3>
+        <category>
+            psychology
+            <book id="bk112">
+                <title>Thinking Fast And Slow </title>
+                <author>Daniel Kahneman </author>
+                <price> 36.95 </price>
+                <publish_date>2002-12-01 </publish_date>
+            </book>
+            <book id="bk113">
+                <title>The Power of Habit </title>
+                <author>Charles Duhigg </author>
+                <price>12.90 </price>
+                <publish_date>2005-12-05 </publish_date>
+            </book>
+            <book id="bk114">
+                <title>Predictably Irrational </title>
+                <author>Dan Ariely </author>
+                <price>15.95 </price>
+                <publish_date> 2005-12-12 </publish_date>
+            </book>
+            <book id="bk115">
+                <title> Influence: The Psychology </title>
+                <author>Robert Cialdini </author>
+                <price>10.95 </price>
+                <publish_date>2000-09-06 </publish_date>
+            </book>
+        </category>
+    </shelf3>
+    <shelf4>
+        <category>
+            romance
+            <book id="bk116">
+                <title>Vision in White </title>
+                <author>Nora Roberts </author>
+                <price>10.95 </price>
+                <publish_date>2000-09-06 </publish_date>
+            </book>
+            <book id="bk117">
+                <title>The Notebook </title>
+                <author>Nicolas Sparks </author>
+                <price>30.45 </price>
+                <publish_date>1999-10-02  </publish_date>
+            </book>
+            <book id="bk118">
+                <title>Tonight And Forever </title>
+                <author>Brenda Jackson </author>
+                <price>30.50 </price>
+                <publish_date>1998-11-02  </publish_date>
+            </book>
+        </category>
+    </shelf4>
+    <shelf5>
+        <category>
+            adventure
+            <book id="bk119">
+                <title>The Odyssey </title>
+                <author>Homer </author>
+                <price>40.50 </price>
+                <publish_date>1998-10-05 </publish_date>
+            </book>
+            <book id="bk120">
+                <title>Gulliver's Travels </title>
+                <author>Jonathan Swift </author>
+                <price>35.80 </price>
+                <publish_date>1999-08-05  </publish_date>
+            </book>
+            <book id="bk121">
+                <title>Moby-Dick </title>
+                <author>Herman Melville </author>
+                <price>19.50 </price>
+                <publish_date>1998-12-11 </publish_date>
+            </book>
+            <book id="bk122">
+                <title>Treasure Island </title>
+                <author>Robert Louis Stevenson </author>
+                <price>21.50 </price>
+                <publish_date>2000-10-02 </publish_date>
+            </book>
+            <book id="bk123">
+                <title>King Solomon's Mines </title>
+                <author>H. Rider Haggard </author>
+                <price>17.95 </price>
+                <publish_date>1998-09-10 </publish_date>
+            </book>
+        </category>
+    </shelf5>
+</library>

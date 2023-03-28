@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categories>
+  <book title="The color of magic">category="fantasy"</book>
+  <book title="The fifth season">category="fantasy"</book>
+  <book title="The lord of the rings">category="fantasy"</book>
+  <book title="The name of the wind">category="fantasy"</book>
+  <book title="American gods">category="fantasy"</book>
+  
+  <book title="Types and Programming Languages">category="programming"</book>
+  <book title="Algorithms">category="fantasy"</book>
+  <book title="Introduction to Computer Science Using Python">category="programming"</book>
+  <book title="JavaScript: The Good Parts">category="programming"</book>
+  <book title="The Pragmatic Programmer">category="programming"</book>
+  <book title="Modern Operating Systems">category=""</book>
+  
+  <book title="Thinking Fast And Slow">category="psychology"</book>
+  <book title="The Power of Habit">category="psychology"</book>
+  <book title="Predictably Irrational">category="psychology"</book>
+  <book title="Influence: The Psychology">category="psychology"</book>
+  
+  <book title="Vision in White">category="romance"</book>
+  <book title="The Notebook">category="romance"</book>
+  <book title="Tonight And Forever">category="romance"</book>
+  
+  <book title="The Odyssey">category="adventure"</book>
+  <book title="Gulliver's Travels">category="adventure"</book>
+  <book title="Moby-Dick">category="adventure"</book>
+  <book title="Treasure Island">category="adventure"</book>
+  <book title="King Solomon's Mines">category="adventure"</book>
+
+</categories>
