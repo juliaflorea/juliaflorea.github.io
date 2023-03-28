@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker Application</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="site.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"> </script>  
+    <script
+      src="https://kit.fontawesome.com/d50b491588.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Food',     11],
+          ['Transportation',      2],
+          ['Outings',  2],
+          ['Clothes', 2],
+          ['Medical Supplies',    7]
+        ]);
+
+        var options = {
+          title: 'My Weekly Expenses'
+          
+        };
+        
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Month', 'Income', 'Expenses'],
+      ['December',  2022,      400],
+      ['January',  2023,      460],
+      ['February',  2023,       1120],
+      ['March',  2023,      540]
+    ]);
+
+    var options = {
+      title: 'Income VS Expense',
+      curveType: 'function',
+      legend: { position: 'bottom' }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+    chart.draw(data, options);
+  }
+</script>
+
+
+</head>
+<body >
+
+   
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="logo">Expense Tracker</a>
+      <button class=" navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-3 mb-lg-0 ">
+          <li class="nav-item  ">
+            <a class="nav-link active" id="login" aria-current="page" href="index.html">Home </a>
+          </li>
+          <li class="nav-item  ">
+            <a class="nav-link active" id="login" aria-current="page" href="login.html">Login </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="signup" href="signin.html">Sign Up  </a>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Expense Tracker Dashboard</h1>
+  </header>
+  <div class="sidebar">
+      <a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        <i class="fa fa-bars"></i>
+      </a>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="images/expenseTracker.png" alt=""> Wallet App</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        
+        <div class="offcanvas-body">
+
+          <div class="profile-container">
+            <div>
+                <img src="images/circleProfile.png" alt="">
+                <h4  id="user">Ashton Darren</h4>
+                
+            </div>
+            
+        </div>
+
+          <div class="general-container">
+            <h3 id="general">GENERAL</h3>
+            <ul class="general">
+              <li><a class="general-item list-unstyled" href="dashboard.html"><i class="fa-solid fa-table-columns"></i> Dashboard</a></li>
+              <li><a class="general-item" href="category.html"><i class="fa-sharp fa-solid fa-folder-open"></i> Categories</a></li>
+              <li><a class="general-item" href="transaction.html"><i class="fa-solid fa-tent-arrow-left-right"></i> Transactions</a></li>
+            </ul>
+        </div>
+  
+        <div class="extras-container">
+          <h3 id="extras">EXTRAS</h3>
+          <ul class="extras">
+            <li><a class="extras-item list-unstyled" href="report.html"><i class="fa-solid fa-chart-simple"></i> Reports</a></li>
+            <li><a class="extras-item" href="settings.html"><i class="fa-solid fa-gear"></i> Settings</a></li>
+          </ul>
+      </div>
+      </div>
+      
+    </div>
+    
+
+  <div class="container">
+      <div class="box">
+          <h2>Total Income <i id="dolar1" class="fa-solid fa-dollar-sign"></i></h2>
+          <p>$2,500</p>
+      </div>
+      <div class="box">
+          <h2>Total Expenses <i id="dolar2" class="fa-solid fa-dollar-sign"></i></h2>
+          <p>$500</p>
+      </div>
+      <div class="box">
+          <h2>Balance <i id="dolar3" class="fa-solid fa-dollar-sign"></i></h2>
+          <p>$3,500</p>
+      </div>
+      <div class="box">
+          <h2>Recent Expenses <i id="dolar4" class="fa-solid fa-dollar-sign"></i></h2>
+          <p>12/03/2023 - Food 🍕 - $50</p>
+          <p>12/02/2023 - Transportation <i id="transport" class="fa-solid fa-truck-plane"></i> - $25</p>
+          <p>12/01/2023 - Entertainment 🪂 - $100</p>
+      </div>
+  </div>
+  
+  <div class="charts-container">
+    <div class="charts">
+      <div class="piechart">
+          <div id="piechart" ></div>
+      </div>
+      <div class="curve_chart">
+          <div id="curve_chart" ></div>
+      </div>
+      
+  </div>
+  </div>
+  
+  
+    <script src="dashboard.js"></script>
+</body>
+</html>

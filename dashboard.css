@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #1c1c26 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.box h2 {
+  color: #ccc;
+}
+.box p {
+  color: aliceblue;
+}
+header {
+  background-color: #1c1c26;
+  color: #e3682f;
+  padding: 10px;
+  text-align: center;
+}
+header h1 {
+  font-size: 36px;
+}
+
+.container {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  background-color: #4b4b50;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  min-width: 40px;
+}
+.box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.box p {
+  margin: 0;
+}
+
+#dolar1 {
+  color: rgb(45, 240, 81);
+}
+
+#dolar2 {
+  color: #b23f0a;
+}
+
+#dolar3 {
+  color: #3a7ddb;
+}
+
+#dolar4 {
+  color: #c5bf16;
+}
+
+.charts-container {
+  border-top: solid thick #b23f0a;
+}
+.charts {
+  white-space: nowrap;
+  width: 100px;
+}
+#piechart {
+  width: 900px;
+  height: 500px;
+  position: relative;
+  right: 4rem;
+  display: inline-block;
+}
+
+#curve_chart {
+  width: 900px;
+  height: 500px;
+  display: inline-block;
+  position: relative;
+  right: 20rem;
+}
+
+.curve_chart {
+  display: inline-block;
+}
+
+.piechart {
+  display: inline-block;
+}

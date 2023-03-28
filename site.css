@@ -1,0 +1,159 @@
+.navbar {
+  background-color: #1c1c26;
+  border-bottom: solid rgb(69, 70, 70);
+  border-width: 0.1px thin;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 25px;
+  color: azure;
+  text-decoration: none;
+  font-family: poppins;
+}
+
+.navbar-toggler-icon {
+  background-color: azure;
+}
+
+#login,
+#signup {
+  color: azure;
+  font-size: 17px;
+}
+
+.nav-item {
+  position: relative;
+  left: 25rem;
+  margin: 5px;
+}
+
+.offcanvas-body {
+  background-color: #1c1c26;
+}
+
+.offcanvas-header img {
+  width: 65px;
+  height: 40px;
+  border: solid #1e1f1e thick;
+  border-radius: 5px;
+}
+
+.offcanvas-header {
+  background-color: #1c1c26;
+}
+
+#offcanvasExampleLabel {
+  font-weight: 600;
+  font-size: 25px;
+  color: azure;
+  text-decoration: none;
+  font-family: poppins;
+}
+
+.offcanvas-header {
+  border-bottom: solid rgb(69, 70, 70);
+  border-width: 0.1px thin;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #4e4e5a;
+}
+.sidebar ul {
+  list-style: none;
+}
+
+.offcanvas-body {
+  top: 10rem;
+}
+
+#general,
+#extras {
+  color: rgb(138, 246, 121);
+  font-size: 15px;
+  position: relative;
+}
+
+.general-container,
+.extras-container {
+  position: relative;
+  top: 1rem;
+  left: 0.5rem;
+}
+.extras-container {
+  position: relative;
+  top: 2rem;
+}
+
+.general li a i,
+.extras li a i {
+  color: rgb(137, 142, 142);
+}
+
+.profile-container img {
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+.profile-container {
+  background-color: #22222a;
+  border: solid thin #272729;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  height: 70px;
+}
+
+.profile-container #user {
+  color: #6d6d77;
+  margin-left: 70px;
+  position: relative;
+  bottom: 30px;
+  font-size: 20px;
+}
+
+footer {
+  padding-top: 10rem;
+  border-top: solid rgb(69, 70, 70);
+  border-width: 0.1px thin;
+}
+.social-footer {
+  padding: 1rem;
+  background: #8a8a8a;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.social-footer {
+  background-color: #1c1c26;
+  color: #686870;
+}
+.social-footer p {
+  font-size: small;
+  margin-left: 15px;
+  padding-left: 32rem;
+}
+
+.social-footer .social-footer-icons i {
+  margin: 5px;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #686870;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  transition: color 0.3s ease-in;
+  background-color: #2ecc71;
+}

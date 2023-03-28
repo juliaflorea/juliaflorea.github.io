@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 7rem;
+  background: url(images/loginBackground.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+main {
+  width: 100%;
+  max-width: 400px;
+  padding: 3rem 4rem;
+  margin: auto;
+  border: solid thin rgb(226, 139, 39);
+}
