@@ -1,0 +1,2 @@
+select figure at 1964 1751 12 -branches -sn=1
+select all in 1961 1684 2238 1748 -branches -enclosed -noattrwin -sn=1

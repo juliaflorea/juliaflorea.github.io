@@ -1,0 +1,23 @@
+Release 9.2.04i - xst J.40
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 3.55 s | Elapsed : 0.00 / 4.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/File_Regs is now defined in a different file.  It was defined in "Y:/Florea_Julia_PIC24/PIC24/File_Regs.vhd", and is now defined in "//vboxsvr/d_drive/Florea_Julia_PIC24/PIC24/File_Regs.vhd".
+WARNING:HDLParsers:3607 - Unit work/File_Regs/Behavioral is now defined in a different file.  It was defined in "Y:/Florea_Julia_PIC24/PIC24/File_Regs.vhd", and is now defined in "//vboxsvr/d_drive/Florea_Julia_PIC24/PIC24/File_Regs.vhd".
+Compiling vhdl file "//vboxsvr/d_drive/Florea_Julia_PIC24/PIC24/File_Regs.vhd" in Library work.
+Architecture behavioral of Entity file_regs is up to date.
+CPU : 5.03 / 8.58 s | Elapsed : 5.00 / 9.00 s
+ 
+--> 
+
+Total memory usage is 209776 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
